@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 
 const sequelize = new Sequelize({
   dialect: 'sqlite',
-  storage: '/home/sathish/Desktop/Rental/database.db',
+  storage: '/home/sathish/Desktop/rental/database.db',
 });
 
 const VechicalDetails = sequelize.define('vechicaldetails', {
