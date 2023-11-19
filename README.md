@@ -1,4 +1,3 @@
-# rental
 npm init -y
 npm install sequelize
 npm install sqlite3
